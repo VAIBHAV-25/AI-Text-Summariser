@@ -5,9 +5,10 @@ const rapidApiKey = import.meta.env.VITE_RAPID_API_ARTICLE_KEY;
 export const articleApi = createApi({
     reducerPath: 'articleApi',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'https://article-extractor-and-summarizer.p.rapidapi.com/',
+        baseUrl: 'https://article-extractor-and-summarizer.p.rapidapi.com/' || rapidApiKey,
         prepareHeaders: (headers) => {
-            headers.set('X-RapidAPI-Key', rapidApiKey);
+            // if you are cloning this than add your own API key from rapid API
+            headers.set('X-RapidAPI-Key', 'ff281f1e85mshffecb36cc643fcfp170b6bjsn869c46cd5162');
             headers.set('X-RapidAPI-Host', 'article-extractor-and-summarizer.p.rapidapi.com');
 
             return headers;
