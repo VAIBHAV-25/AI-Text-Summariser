@@ -17,8 +17,6 @@
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets](#snippets)
-6. 🔗 [Links](#links)
-7. 🚀 [More](#more)
 
 
 ## <a name="introduction">🤖 Introduction</a>
@@ -237,9 +235,5 @@ Open [http://localhost:5173](http://localhost:5173) in your browser to view the 
 ```
 
 </details>
-
-## <a name="links">🔗 Links</a>
-
-Assets used in the project are [here](https://drive.google.com/file/d/11DLzrWADT-GyhuHpWXobhUwqV8peC0ef/view)
 
 #
